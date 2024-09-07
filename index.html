@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let main = document.createElement("div");
+      document.body.appendChild(main);
+      main.style.border = "2px solid";
+      main.style.height = "60vh";
+      main.style.width = "55%";
+      main.style.display = "flex";
+      main.style.flexDirection = "column";
+      main.style.alignItems = "center";
+      main.style.marginLeft = "2rem";
+      main.style.marginTop = "4rem";
+      main.style.backgroundColor= "yellow";
+      main.style.padding = "3rem";
+      let head = document.createElement("h3");
+      main.appendChild(head);
+      head.innerHTML =
+        "<i>On this occasion of Ganesh Chaturthi, I wish Lord Ganpati visits your home with bags full of happiness, prosperity, and peace.</i>";
+      head.style.backgroundColor = "";
+
+      let img1 = document.createElement("img");
+      main.appendChild(img1);
+      img1.setAttribute(
+        "src"," https://static.toiimg.com/thumb/imgsize-23456,msid-86039314,width-600,resizemode-4/86039314.jpg"
+      );
+      img1.setAttribute("height", "180px");
+
+      let para = document.createElement("p");
+      main.appendChild(para);
+      para.innerHTML =
+        "Ganesh Chaturthi is a widely celebrated Indian festival that falls during Shukla Paksha Chaturthi. This year, the festival will be celebrated on 19th September. Spread the love, wish your loved ones a very Happy Ganesh Chaturthi with these messages, quotes, wishes and images via your social media.";
+      let wish = document.createElement("h1");
+      main.appendChild(wish);
+      wish.innerHTML = "<i>***Ganesh Chathurthi***</i>";
+    </script>
+  </body>
+</html>
